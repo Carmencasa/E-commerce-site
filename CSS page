@@ -1,0 +1,77 @@
+ul {
+    margin: 20px;
+     padding: 0;
+     padding-top: 15px;
+     background-color: #E6E6FA;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 120px;
+    font-family: Century Gothic;
+    font-size: 18px;
+    color: #4A70BC;
+}
+.riga-parole {
+    gap: - 5px;
+   border: 1px solid #ccc;
+    display: flex;
+  padding: 85px;
+  width: auto;
+  align-items: 52px;
+    padding-bottom: 25px;
+ justify-content:space-evenly;
+ background-color: #4169E1;
+} 
+
+.riga-parole span {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+.riga-parole span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #124679;
+    height: 2px;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.top-right {
+    position: absolute;
+    right: 15px;
+
+}
+
+figure {
+    display: inline-block;
+margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu {
+    margin-top: 10px;
+    background: #eee;
+    padding: 10px;
+}
+
+nav {
+    margin: 20px;
+     padding: 0;
+     padding-top: 15px;
+     background-color: #B0C4DE;
+}
